@@ -1,4 +1,4 @@
-/* C5, C6, C7, C8 */
+
 body {
     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
     color: #434455;
@@ -6,12 +6,12 @@ body {
     margin: 0;
 }
 
-/* A13 */
+
 button {
     cursor: pointer;
 }
 
-/* A3, C1: класи для стилів */
+
 .header,
 .footer {
     padding: 20px;
@@ -137,3 +137,4 @@ button {
 .footer {
     text-align: center;
     padding: 60px 20px;
+}
