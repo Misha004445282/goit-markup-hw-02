@@ -1,78 +1,84 @@
-
-.body {
-    font-family: "Roboto", sans-serif;
+/* C5, C6, C7, C8 */
+body {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
     color: #434455;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* A13 */
+button {
+    cursor: pointer;
+}
+
+/* A3, C1: класи для стилів */
+.header,
+.footer {
+    padding: 20px;
     background-color: #ffffff;
 }
 
-
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
 }
 
-.logo-span {
-    color: #2e2f42;
+.nav-list,
+.contacts-list,
+.features-list,
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
 }
 
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-
-.contact {
-    font-style: normal;
-}
-
+.nav-link,
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    font-weight: 500;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
 }
 
-
 .hero {
-    background-color: #2e2f42;
     text-align: center;
-    padding: 60px 0;
+    padding: 120px 20px;
+    background-color: #2e2f42;
+    color: #ffffff;
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 32px;
 }
 
 .hero-button {
     background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
 }
 
 .hero-button:hover,
@@ -80,51 +86,54 @@
     background-color: #404bbf;
 }
 
-
 .section-title {
     font-size: 36px;
     line-height: 1.11;
+    font-weight: 700;
     text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+    margin-bottom: 40px;
 }
 
-.feature-title {
-    font-weight: 500;
+.features {
+    padding: 60px 20px;
+}
+
+.features-title {
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
-.feature-text {
+.features-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 
-
-.team-section {
+.team {
+    padding: 60px 20px;
     background-color: #f4f4fd;
 }
 
-.team-list .team-item {
+.team-item {
     background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
 
 .footer {
-    background-color: #2e2f42;
-}
-
-.footer-span {
-    color: #f4f4fd;
-}
-
-.footer-text {
-    line-height: 1.5;
-    color: var(--footer-text-color, #f4f4fd);
-    letter-spacing: 0.02em;
-}
+    text-align: center;
+    padding: 60px 20px;
